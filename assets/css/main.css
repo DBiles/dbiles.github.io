@@ -1,0 +1,51 @@
+/* Page Reset */
+html,
+body,
+  {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Common Look */
+
+.navbar, .jumbotron, .row {
+  background-color: #25291C;
+  color: ghostwhite;
+}
+
+form, #carouselId {
+  margin: 0 auto;
+}
+
+/* Jumbotron */
+.jumbotron {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Section Headers */
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Form */
+button {
+  background-color: ghostwhite;
+  color: #25291C;
+}
+
+.form, .form-group > input,textarea {
+  text-align: center;
+}
+
+/* Carousel */
+.carousel-item img {
+  height: 500px;
+  width: 800px;
+  align-items: center;
+}
+
+.carousel {
+  text-align: center;
+}
