@@ -1,0 +1,192 @@
+/* Page Layout */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: #36311F;
+}
+
+h1 {
+    margin-bottom: -10px;
+}
+
+h2 {
+    margin-top: -15px;
+}
+
+
+
+.header-icon {
+    font-size: 75px;
+}
+
+/* About */
+.about {
+    color: ghostwhite;
+}
+
+.object {
+    font-size: 20px;
+}
+
+.reserved {
+    color: violet;
+}
+
+.object-item {
+    color: crimson;
+}
+
+.bracket {
+    color: dodgerblue;
+}
+
+
+.value {
+    color: tomato
+}
+
+/* Skills */
+
+.skills {
+    color: ghostwhite;
+}
+
+.skills>p {
+    font-size: 50px;
+    margin-right: 7px;
+    text-align: center;
+}
+
+p i:hover,
+p img:hover {
+    animation: shake .5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+#html {
+    color: orangered;
+}
+
+#js {
+    color: yellow;
+}
+
+#css {
+    color: dodgerblue;
+}
+
+#node {
+    color: yellowgreen;
+}
+
+#react {
+    color: darkcyan;
+}
+
+#firebase {
+    width: 3%;
+}
+
+#mysql {
+    width: 7%;
+}
+
+#mongo {
+    width: 7%;
+    vertical-align: bottom;
+}
+
+#sqlserver {
+    width: 5%;
+}
+
+#github {
+    color: grey;
+}
+
+#jira {
+    width: 6%;
+    vertical-align: bottom;
+}
+
+/* Portfolio */
+.portfolio {
+    color: ghostwhite;
+}
+
+#first-panel {
+    background-image: url(../images/trainscheduler.PNG);
+    background-size: cover;
+}
+
+#second-panel {
+    background-image: url(../images/crytsal-collector.PNG);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#first-panel {
+    background-image: url(../images/trainscheduler.PNG);
+    background-size: cover;
+}
+
+#first-panel {
+    background-image: url(../images/trainscheduler.PNG);
+    background-size: cover;
+}
+
+.carousel-item a:visited, a:link, a:active {
+    text-decoration: none;
+    color: black;
+}
