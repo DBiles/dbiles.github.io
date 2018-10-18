@@ -166,27 +166,22 @@ p img:hover {
 }
 
 #first-panel {
-    background-image: url(../images/trainscheduler.PNG);
+    background-image: url('../images/trainscheduler.PNG');
     background-size: cover;
 }
 
 #second-panel {
-    background-image: url(../images/crytsal-collector.PNG);
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-image: url('../images/crystalcollector.PNG');
+    background-size: cover;
+    background-position-y: 30%;
 }
 
-#first-panel {
-    background-image: url(../images/trainscheduler.PNG);
+#third-panel {
+    background-image: url('../images/trivia-royale.PNG');
     background-size: cover;
 }
 
-#first-panel {
-    background-image: url(../images/trainscheduler.PNG);
-    background-size: cover;
-}
-
-.carousel-item a:visited, a:link, a:active {
-    text-decoration: none;
-    color: black;
+/* Contact */
+.contact {
+    color: ghostwhite;
 }
