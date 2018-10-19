@@ -1,128 +1,189 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Darron Biles Resume</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-    crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darron Biles</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
-<!-- Nav Bar -->
-<nav class="navbar sticky-top">
-  <div class="container-fluid navigation">
-
-    <!-- Brand Statement -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Darron Biles</a>
-    </div>
-
-    <!-- Navigation Links with Font Awesome Icons-->
-    <a href="#"><i class="fas fa-home"></i> Home</a>
-    <a href="#"><i class="fas fa-code"></i> Skills</a>
-    <a href="#"><i class="fas fa-box-open"></i> Portfolio</a>
-    <a href="#"><i class="fa fa-envelope"></i> Contact</a>
-
-  </div>
-</nav>
-
-<!-- Body Section -->
 
 <body>
 
-  <!-- Jumbotron -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="jumbotron col-12">
-        <h1 class="display-3 section-header">Darron Biles</h1>
-        <p class="lead section-emphasis">Programmer | Embedded Tester | Full Stack Engineer</p>
-        <iframe src="https://ghbtns.com/github-btn.html?user=dbiles&type=follow&count=true&size=large" frameborder="0"
-          scrolling="0" width="220px" height="30px" style="text-align: center"></iframe>
-        <hr class="my-2">
-        <p><span class="property"></span>let</span> darronBiles = <span class="bracket">{</span> </p>
-        <p><span class="property">criticalThinker:</span> true,</p>
-        <p><span class="property">tenacious:</span> true,</p>
-        <p><span class="property">teamPlayer:</span> true,</p>
-        <p><span class="bracket">}</span></p>
-      </div>
-    </div>
-  </div>
+    <!-- Navigation -->
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="container">
+                        <a href="#" class="brand-logo">Darron Biles</a>
+                        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#home"><i class='material-icons'>home</i></a></li>
+                            <li><a href="#skills"><i class="material-icons">code</i></a></li>
+                            <li><a href="#portfolio"><i class="material-icons">folder</i></a></li>
+                            <li><a href="#contact"><i class="material-icons">inbox</i></a></li>
+                        </ul>
 
+                        <!-- Mobile Menu -->
+                        <ul class="side-nav" id="mobile-menu">
+                            <li>
+                                <div class="userView">
+                                    <div class="background">
+                                        <img src="http://cdn.backgroundhost.com/backgrounds/subtlepatterns/triangles.png"
+                                            alt="Background Sidenav">
+                                    </div>
+                                    <a href="#!user"><img class="circle" src="http://lorempixel.com/output/people-q-c-640-480-9.jpg"
+                                            alt="User Image Sidenav"></a>
+                                    <a href="#!name"><span class="white-text name">Darron Biles</span></a>
+                                    <a href="#!email"><span class="white-text email">darron.biles@gmail.com</span></a>
+                                </div>
+                            </li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#skills">Code</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-  <!-- Portfolio -->
-  <div class='container-fluid'>
-    <div class="row pb-4">
-      <div id="carouselId" class="carousel slide col-8" data-ride="carousel">
-        <h2><i class="fas fa-box-open"></i> Portfolio</h2>
-        <ol class="carousel-indicators">
-          <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselId" data-slide-to="1"></li>
-          <li data-target="#carouselId" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <a href="https://dbiles.github.io/crystal-collector/" target="_blank"><img src="./assets/images/crytsal-collector.PNG"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="https://dbiles.github.io/trivia-game/" target="_blank"><img src="./assets/images/trivia_game.png"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="https://dbiles.github.io/giftastic/" target="_blank"><img src="./assets/images/giphyapi.png"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="https://dbiles.github.io/trainschedule/" target="_blank"><img src="./assets/images/trainscheduler.PNG"></a>
-          </div>
-          <small><i>Click to vist the project </i></small>
+    <!-- Main Section -->
+    <main>
+        <!-- About -->
+        <div class="container">
+            <div class="row about">
+                <div class="col s12 center-align object" id="home">
+                    <img class="responsive-img circle z-depth-2" src="./assets/images/headshot.jpg" alt="darron's headshot" style="height: 250px; width: 250px; border-radius: 50%; margin-top: 15px; margin-bottom: -20px;">
+                    <h1>Darron Biles</h1>
+                    <h5>Full Stack Engineer . Thinker . Solutionist</h5>
+                    <p><span class="reserved">let</span></span> <span class='object-item'>darronBiles</span> = <span
+                            class="bracket">{</span> </p>
+                    <p>criticalThinker: <span class='value'>true,</span></p>
+                    <p>tenacious: <span class="value">true,</span></p>
+                    <p>teamPlayer: <span class="value">true,</span></p>
+                    <p><span class="bracket">}</span></p>
+                </div>
+            </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-  </div>
+        <hr />
 
-  <!-- Contact -->
-  <div class="container-fluid">
-    <div class="row">
-      <form class="form col-8">
-        <h2><i class="fa fa-envelope"></i> Contact</h2>
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" class="form-control shadow" id="email-contact" aria-describedby="email-help" placeholder="handle@domain.com">
+        <!-- Skills -->
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align skills" id="skills">
+                    <h1><i class="material-icons header-icon">code</i></h1>
+                    <h2>Skills</h2>
+
+                    <!-- Front End -->
+                    <p>Front End: <i class="fab fa-html5" id="html"></i> <i class="fab fa-css3-alt " id="css"></i> <i
+                            class="fab fa-js-square" id="js"></i> <i class="fab fa-react" id="react"></i></p>
+
+                    <!-- Back End -->
+                    <p>Back End: <i class="fab fa-node-js" id="node"></i> <img src="./assets/images/firebase.png" alt="firebase logo"
+                            id="firebase"></p>
+
+                    <!-- Databses -->
+                    <p>Database: <img src="./assets/images/mysql.png" alt="mysql image" id="mysql">
+                        <img src="./assets/images/mongo.png" alt="mongo logo" id="mongo"> <img src="./assets/images/sql server.png"
+                            alt="oracle logo" id="sqlserver"></p>
+
+                    <!-- Code Mgmt -->
+                    <p>Code Mgmt: <i class="fab fa-github" id="github"></i> <i class="fas fa-code-branch " id="github"></i>
+                        <img src="./assets/images/jira.png" alt="jira logo" id="jira"></p>
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-          <label for="subject">Subject</label>
-          <input type="text" class="form-control shadow" id="email-subject" aria-describedby="subject" placeholder="Subject of email">
+        <hr />
+
+        <!-- Portfolio -->
+        <div class="container">
+            <div class="row">
+                <div class="s12 center-align portfolio" id="portfolio">
+                    <h1><i class="material-icons header-icon">folder</i></h1>
+                    <h2>Portfolio</h2>
+                    <div class="carousel carousel-slider center z-depth-2" data-indicators="true">
+                        <div class="carousel-item white-text" id="first-panel" href="#one!">
+                            <a href="https://dbiles.github.io/trainschedule/">
+                                <div class="carousel-fixed-item center">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item white-text" id="second-panel" href="#one!">
+                            <a href="https://dbiles.github.io/crystal-collector/">
+                                <div class="carousel-fixed-item center">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item white-text" id="third-panel" href="#one!">
+                            <a href="https://gtbc-juggernaunts.github.io/Trivia-Royale/">
+                                <div class="carousel-fixed-item center">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control shadow" id="email-message" rows="3" placeholder="Leave a message..."></textarea>
+        <hr />
+
+        <!-- Contact -->
+        <div class="container">
+            <div class="row center-align">
+                <div class="s12 center-align contact" id="contact">
+                    <h1><i class="material-icons header-icon">inbox</i></h1>
+                    <h2>Contact</h2>
+                </div>
+                <div class="col s4">
+                    <a href="https://github.com/DBiles" target="_blank"><img src="./assets/images/octocat.png" alt="github octocat"
+                            style="width: 35%; height: 35%;"> </a>
+                    <p>Check out my Github profile and all of the repos</p>
+                </div>
+                <div class="col s4">
+                    <a href="https://www.linkedin.com/in/darronbiles/" target="_blank"><img src="./assets/images/linkedIN.png"
+                            alt="linkedin logo" style="width: 25%; height: 25%; margin-bottom: 15px;"> </a>
+                    <p>Connect with me on LinkedIn. Let's meet over coffee or connect about opportunities</p>
+                </div>
+                <div class="col s4">
+                    <a href="./assets/docs/Darron_Biles_Resume.pdf" target="_blank"><i class="large material-icons">fingerprint</i></a>
+                    <p style="margin-top: 30px;">Click here to check out my resume</p>
+                </div>
+            </div>
         </div>
-        <button type="button" class="btn btn-sm shadow" role="button" aria-pressed="true">Send Message</button>
-      </form>
-    </div>
-  </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                © 2018 Copyright
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $("document").ready(function () {
+            $(".button-collapse").sideNav();
+            $('.carousel').carousel();
+        });
+    </script>
+
 </body>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-  crossorigin="anonymous"></script>
-
 </html>

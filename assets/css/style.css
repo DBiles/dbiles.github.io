@@ -18,7 +18,17 @@ h2 {
     margin-top: -15px;
 }
 
+nav > *, footer.page-footer {
+    background-color: #467947;
+}
 
+.footer-copyright {
+    background-color: #568557;
+}
+
+.nav-wrapper  * {
+    color: #59544B;    
+}
 
 .header-icon {
     font-size: 75px;
