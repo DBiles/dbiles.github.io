@@ -18,6 +18,13 @@ h2 {
     margin-top: -15px;
 }
 
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+/* Nav */
+
 nav > *, footer.page-footer {
     background-color: #467947;
 }
@@ -27,7 +34,7 @@ nav > *, footer.page-footer {
 }
 
 .nav-wrapper  * {
-    color: #59544B;    
+    color: ghostwhite;    
 }
 
 .header-icon {
@@ -175,23 +182,17 @@ p img:hover {
     color: ghostwhite;
 }
 
-#first-panel {
-    background-image: url('../images/trainscheduler.PNG');
-    background-size: cover;
+.card {
+    margin-right: 25px;
 }
 
-#second-panel {
-    background-image: url('../images/crystalcollector.PNG');
-    background-size: cover;
-    background-position-y: 30%;
+.card-content {
+    color: black;
+    background: #467947;
 }
 
-#third-panel {
-    background-image: url('../images/trivia-royale.PNG');
-    background-size: cover;
-}
 
 /* Contact */
-.contact {
+.contact, .contact-info, footer {
     color: ghostwhite;
 }

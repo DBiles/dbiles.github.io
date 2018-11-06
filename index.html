@@ -28,10 +28,10 @@
                         <a href="#" class="brand-logo">Darron Biles</a>
                         <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="#home"><i class='material-icons'>home</i></a></li>
-                            <li><a href="#skills"><i class="material-icons">code</i></a></li>
-                            <li><a href="#portfolio"><i class="material-icons">folder</i></a></li>
-                            <li><a href="#contact"><i class="material-icons">inbox</i></a></li>
+                            <li><a href="#home"><i class='material-icons nav-icons'>home</i></a></li>
+                            <li><a href="#skills"><i class="material-icons nav-icons">code</i></a></li>
+                            <li><a href="#portfolio"><i class="material-icons nav-icons">folder</i></a></li>
+                            <li><a href="#contact"><i class="material-icons nav-icons">inbox</i></a></li>
                         </ul>
 
                         <!-- Mobile Menu -->
@@ -65,7 +65,8 @@
         <div class="container">
             <div class="row about">
                 <div class="col s12 center-align object" id="home">
-                    <img class="responsive-img circle z-depth-2" src="./assets/images/headshot.jpg" alt="darron's headshot" style="height: 250px; width: 250px; border-radius: 50%; margin-top: 15px; margin-bottom: -20px;">
+                    <img class="responsive-img circle z-depth-2" src="./assets/images/headshot.jpg" alt="darron's headshot"
+                        style="height: 250px; width: 250px; border-radius: 50%; margin-top: 15px; margin-bottom: -20px;">
                     <h1>Darron Biles</h1>
                     <h5>Full Stack Engineer . Thinker . Solutionist</h5>
                     <p><span class="reserved">let</span></span> <span class='object-item'>darronBiles</span> = <span
@@ -110,27 +111,55 @@
         <!-- Portfolio -->
         <div class="container">
             <div class="row">
-                <div class="s12 center-align portfolio" id="portfolio">
+                <div class="s12 portfolio center-align" id="portfolio">
                     <h1><i class="material-icons header-icon">folder</i></h1>
                     <h2>Portfolio</h2>
-                    <div class="carousel carousel-slider center z-depth-2" data-indicators="true">
-                        <div class="carousel-item white-text" id="first-panel" href="#one!">
-                            <a href="https://dbiles.github.io/trainschedule/">
-                                <div class="carousel-fixed-item center">
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image">
+                                        <a href="https://github.com/DBiles/blamazon"><img src="./assets/images/blamazondemo.gif"></a>
                                 </div>
-                            </a>
+                                <div class="card-content">
+                                    <p>Small Node.js Application to display CLI operations with a MYSQL database.App simulates inventory tracking</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item white-text" id="second-panel" href="#one!">
-                            <a href="https://dbiles.github.io/crystal-collector/">
-                                <div class="carousel-fixed-item center">
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image">
+                                        <a href=""><img src="./assets/images/hangmandemo.gif"></a>
                                 </div>
-                            </a>
+                                <div class="card-content">
+                                    <p>Essentially Hangman. User gets a few more tries to try and answer correctly. Game will present a menu to players to continue playing or exit the game as well.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item white-text" id="third-panel" href="#one!">
-                            <a href="https://gtbc-juggernaunts.github.io/Trivia-Royale/">
-                                <div class="carousel-fixed-item center">
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image">
+                                    <a href=""><img src="https://via.placeholder.com/75"></a>
+                                    <span class="card-title">Card Title</span>
                                 </div>
-                            </a>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am
+                                        convenient because I require little markup to use effectively.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6">
+                            <div class="card small">
+                                <div class="card-image">
+                                        <a href=""><img src="https://via.placeholder.com/75"></a>
+                                    <span class="card-title">Card Title</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -145,17 +174,17 @@
                     <h1><i class="material-icons header-icon">inbox</i></h1>
                     <h2>Contact</h2>
                 </div>
-                <div class="col s4">
+                <div class="contact-info col s4">
                     <a href="https://github.com/DBiles" target="_blank"><img src="./assets/images/octocat.png" alt="github octocat"
                             style="width: 35%; height: 35%;"> </a>
                     <p>Check out my Github profile and all of the repos</p>
                 </div>
-                <div class="col s4">
+                <div class="contact-info col s4">
                     <a href="https://www.linkedin.com/in/darronbiles/" target="_blank"><img src="./assets/images/linkedIN.png"
                             alt="linkedin logo" style="width: 25%; height: 25%; margin-bottom: 15px;"> </a>
                     <p>Connect with me on LinkedIn. Let's meet over coffee or connect about opportunities</p>
                 </div>
-                <div class="col s4">
+                <div class="contact-info col s4">
                     <a href="./assets/docs/Darron_Biles_Resume.pdf" target="_blank"><i class="large material-icons">fingerprint</i></a>
                     <p style="margin-top: 30px;">Click here to check out my resume</p>
                 </div>
@@ -167,7 +196,7 @@
     <footer>
         <div class="footer-copyright">
             <div class="container center-align">
-                © 2018 Copyright
+                <a href="https://github.com/DBiles" target="_blank">Github</a> | © 2018 Copyright
             </div>
         </div>
     </footer>
@@ -186,4 +215,5 @@
     </script>
 
 </body>
+
 </html>
