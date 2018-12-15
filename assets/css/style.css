@@ -7,7 +7,7 @@ body {
 
 main {
     flex: 1 0 auto;
-    background-color: #36311F;
+    background-color: #010400;
 }
 
 h1 {
@@ -18,23 +18,23 @@ h2 {
     margin-top: -15px;
 }
 
-a {
+a, footer{
     text-decoration: none;
-    color: ghostwhite;
+    color: #30332E;
 }
 
 /* Nav */
 
 nav > *, footer.page-footer {
-    background-color: #467947;
+    background-color: #FE5F00;
 }
 
 .footer-copyright {
-    background-color: #568557;
+    background-color: #FE5F00;
 }
 
 .nav-wrapper  * {
-    color: ghostwhite;    
+    color: #30332E;    
 }
 
 .header-icon {
@@ -193,6 +193,6 @@ p img:hover {
 
 
 /* Contact */
-.contact, .contact-info, footer {
+.contact, .contact-info  {
     color: ghostwhite;
 }
